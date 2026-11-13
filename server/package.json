@@ -1,0 +1,11 @@
+{
+  "name": "pke-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PKE 同步 API / 同源 Web 服务。此文件让 Node 把 server/*.js 当 CommonJS（根 package.json 是 type=module）。部署时只拷 .js 到 /opt/pke-sync 与 /opt/pke-web，不需要这个文件。",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
